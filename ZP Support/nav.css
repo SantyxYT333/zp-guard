@@ -1,0 +1,38 @@
+.nav {
+    width: auto;
+    max-width: 100vw;
+    display: f;
+}
+
+.nav-links {
+    background-image: linear-gradient(#000, transparent);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links li a {
+    display: flex;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-links li a:hover:not(.active) {
+    color: gold;
+}
+
+.nav-links .active {
+    color: gold;
+}

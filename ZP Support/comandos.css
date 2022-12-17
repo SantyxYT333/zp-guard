@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #111111;
+    overflow-x: hidden;
+}
+
+.button {
+    margin: 5px;
+    padding: 7px;
+    width: 20px;
+    height: 20;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 7px;
+    border: 3px solid #000;
+    position: relative;
+    top: 10px;
+}
+
+.divisor {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background: goldenrod;
+    height: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.category .title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-height: 700px;
+    text-align: start;
+}
+
+.commands {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.command {
+    color: white;
+    background-color: #000;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    max-height: 100px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+}
+
+.category {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}

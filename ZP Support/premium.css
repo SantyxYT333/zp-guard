@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #111111;
+    overflow-x: hidden;
+}
+
+.plan {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+}
+
+.plan .plan-icon {
+    position: relative;
+    top: 50px;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 100%;
+    border: 2px solid goldenrod;
+}
+
+.plan .info {
+    position: relative;
+    top: 60px;
+}
+
+.plan {
+    margin: 10px;
+}
+
+.plan .info .title-info {
+    color: white;
+    font-size: 20px;
+}
+
+.plan .info .text-info {
+    color: gray;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+}
+
+.plan .info .puchase {
+    position: relative;
+    top: 260px;
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.plan .info .plan-title {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#planes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+.divisor {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background: goldenrod;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin: 5px;
+    padding: 7px;
+    width: 20px;
+    height: 20;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 7px;
+    border: 3px solid #000;
+    position: relative;
+    top: 10px;
+}
